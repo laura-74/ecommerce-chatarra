@@ -1,0 +1,76 @@
+/*FUENTE*/
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lilita+One&family=Patua+One&display=swap');
+/**/
+:root {
+    --color-black: black;
+    --color-white: white;
+    --fuente-ConcertOne: "Concert One", sans-serif;
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: var(--fuente-ConcertOne);
+    background-image: url(/assets/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+  }
+  
+  /*Header*/
+  .header__h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 5rem;
+    color: var(--color-white);
+  }
+  .header a {
+    text-decoration: none;
+    padding: 0.5rem;
+    margin: 3.3rem 0 0 2rem;
+    border-radius: 0.5rem;
+    position: absolute;
+    font-size: 2rem;
+    background-color: var(--color-white);
+    color: var(--color-black);
+  }
+  
+  
+  /*Main*/
+  .main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+
+  }
+  
+.main a{
+text-decoration: none;
+text-align: center;
+}
+
+  .main__section__a1{
+    font-size: 3rem;
+    font-family: var(--fuente-ConcertOne);
+    background-color: #990000;
+    color: var(--color-white);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+  
+.main__section__a2{
+    font-size: 3rem;
+    font-family: var(--fuente-ConcertOne);
+    background-color: #163E64;
+    color: var(--color-white);
+    padding: 3rem;
+    border-radius: 2rem;
+}

@@ -1,0 +1,83 @@
+
+/*FUENTE*/
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Lilita+One&family=Patua+One&display=swap');
+/**/
+:root {
+    --color-black: black;
+    --color-white: white;
+    --fuente-ConcertOne: "Concert One", sans-serif;
+  }
+
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: var(--fuente-ConcertOne);
+    background-image: url(/assets/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+  }
+  
+  /*Header*/
+  .header__h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 5rem;
+    color: var(--color-white);
+  }
+
+  /*Main*/
+  .main{
+    display: grid;
+    place-items: center;
+  }
+
+  .main__section{
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.50);
+    gap: 0.5rem;
+    border-radius: 2rem;
+  }
+  .main__section__p{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+  .main__section__form{
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .main__section__div{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main__section__label{
+    font-size: 2rem;
+
+}
+  .main__section__input {
+    font-family: var(--fuente-ConcertOne);
+    height: 1.5rem;
+    border-radius: 5px;
+    padding: 0.2rem;
+  }
+  .main__section__button {
+    font-family:var(--fuente-ConcertOne);
+    font-size: 2rem;
+    padding: 0.5rem;
+    color: var(--color-white);
+    background-color: var(--color-black);
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+  }
+  
